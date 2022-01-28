@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar"><head>
+    <meta charset="UTF-8">
+    <title>تطبيق فاصل اعلاني</title>
+<style>
+    *{
+        user-select: none;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+    }
+
+    ::-moz-selection{
+        color: white;
+        background: #4CAF50;
+    }
+
+    ::selection {
+        color: white;
+        background: #4CAF50;
+    }
+    body{
+        background: #f9f9f9;
+        overflow: hidden;
+
+    }
+    h1{
+        text-align: center;
+        font-weight: 600;
+        font-size: 4em;
+        line-height: 36px;
+    }
+
+    h2{
+        font-size:2em;
+        line-height: 20px;
+    }
+
+    .wrapper{
+        text-align: center;
+        padding: 20px;
+
+    }
+    .download{
+        background-color: #ED2A2E; /* Green */
+        border: none;
+        color: white;
+        padding: 30px 60px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 3em;
+        border-radius:15px; ;
+     }
+    .footer{
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .footer p{
+        line-height: 6px;
+        font-size: 1.4em;
+        font-weight: 500;
+    }
+
+</style>
+</head>
+
+<body dir="rtl">
+
+<div class="wrapper">
+    <h1 style="color:#ED2A2E">تطبيق فاصل اعلاني</h1>
+    <h1 style="color:#ED2A2E; padding-bottom: 25px"> FaselHD APP</h1>
+    <h2>لمستخدمي هواتف الآيفون يمكنهم تحميل التطبيق من هنا</h2>
+    <h2 style="padding-bottom: 36px">Apple iPhone users can download the app from here</h2>
+
+    <a class="download" href="itms-services://?action=download-manifest&amp;url=https://raw.githubusercontent.com/hakrawy/FaselHD.github.io/main/app.plist" id="text">
+        <img src="download.png" width="60" height="60">
+        <span>التحميل من هنا Download</span>
+    </a>
+    <div class="footer">
+        <p>dev ali</p>
+        <p> FaselHD </p>
+    </div>
+</div>
+
+
+
+</body></html>
